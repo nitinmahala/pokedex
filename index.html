@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modern Pokedex</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title">Pokedex</h1>
+        <div class="search-container">
+          <input type="text" class="search-input" placeholder="Search Pokemon..." />
+          <select class="type-filter">
+            <option value="all">All Types</option>
+          </select>
+        </div>
+      </header>
+      <div class="poke-container" id="poke-container">
+        <div class="loader">Loading...</div>
+      </div>
+    </div>
+
+    <div class="modal hidden">
+      <div class="modal-content"></div>
+    </div>
+    
+  <footer class="footer">
+    <p>Pokedex by Nitin Mahala</p>
+  </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
